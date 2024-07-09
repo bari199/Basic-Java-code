@@ -12,3 +12,4 @@ class AreaandRhombus{
 		System.out.println("Area OF Rhombus :"+ area);
 	}
 }
+//area and rhombus
