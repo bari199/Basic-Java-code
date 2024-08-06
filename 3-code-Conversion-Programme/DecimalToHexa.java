@@ -5,12 +5,12 @@ public class DecimalToHexa
 	public DecimalToHexa()
 	{
 		Scanner user_input=new Scanner(System.in);
-		int decimal;
+		int decimal,reminder;
 		char[]hexa={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
 		String hexaValue=" ";
 
 		System.out.println("Enter Any Number:");
-		decimal=user.input.nextInt();
+		decimal=user_input.nextInt();
 		while(decimal>0)
 		{
 			reminder=decimal%16;
